@@ -1,0 +1,118 @@
+.font-size{
+    font-size: 14px;
+    display: flex !important;
+    flex-direction: inherit !important;
+}
+.hover-img div:hover{
+width: 100% !important;
+transition: 1s;
+}
+.hover-img div{
+    max-height: 400px;
+    overflow: hidden;
+    transition: 1s;
+    cursor: pointer;
+}
+.hover-img div img{
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+
+}
+.main-img{
+    position: relative;
+    width:33.33%;
+}
+.text-hover{
+    position: absolute;
+    bottom: 0;
+    color: #fff;
+    width: 100%;
+    background: rgba(2,2,58,0.70);
+}
+.text-hover p{
+    display: none;
+}
+.hover-img div:hover>p{
+    display: block !important;
+   color: #fff;
+}
+.bg-img{
+    background-image: url("img/dots-bg.png");
+}
+.font-size-radio{
+    font-size: 20px;
+    font-weight: 600;
+}
+.pointer{
+    cursor: pointer;
+}
+.inner-img{
+    position: relative;
+}
+.inner-img-position{
+    position: absolute;
+    bottom: 0;
+    color: #fff;
+    width: 100%;
+    background: rgba(2,2,58);
+}
+
+.position{
+    background-image: url(img/bagimg1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 90vh;
+    background-position: center center;
+}
+
+.slide1{
+    background-image: url(img/bagimg2.jpg);
+}
+
+.slide2{
+    background-image: url(img/bagimg-3.jpg);
+}
+.bgcolor{
+    background: #f5f2f2;
+}
+.hover-img{
+    display: flex;
+}
+@media only screen and (max-width: 600px) {
+    .hover-img{
+        display: block !important;
+        
+    }
+    .hover-img div{
+        max-height: 400px;
+        overflow: hidden;
+        transition: 1s;
+        cursor: pointer;
+    }
+    .hover-img div img{
+        height: 100%;
+        object-fit: cover;
+        width: 100%;
+    
+    }
+    .main-img{
+        position: relative;
+        width:auto;
+    }
+    .text-hover{
+        position: absolute;
+        bottom: 0;
+        color: #fff;
+        width: 100%;
+        background: rgba(2,2,58,0.70);
+    }
+    .text-hover p{
+        display: none;
+    }
+    .hover-img div:hover>p{
+        display: block !important;
+       color: #fff;
+    }
+}
